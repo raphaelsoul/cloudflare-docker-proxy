@@ -4,13 +4,13 @@ addEventListener("fetch", (event) => {
 });
 
 const routes = {
-  "docker.cyberselab.com": "https://registry-1.docker.io",
-  "quay.cyberselab.com": "https://quay.io",
-  "gcr.cyberselab.com": "https://gcr.io",
-  "k8s-gcr.cyberselab.com": "https://k8s.gcr.io",
-  "k8s.cyberselab.com": "https://registry.k8s.io",
-  "ghcr.cyberselab.com": "https://ghcr.io",
-  "cloudsmith.cyberselab.com": "https://docker.cloudsmith.io",
+  "docker.cyberselab.uk": "https://registry-1.docker.io",
+  "quay.cyberselab.uk": "https://quay.io",
+  "gcr.cyberselab.uk": "https://gcr.io",
+  "k8s-gcr.cyberselab.uk": "https://k8s.gcr.io",
+  "k8s.cyberselab.uk": "https://registry.k8s.io",
+  "ghcr.cyberselab.uk": "https://ghcr.io",
+  "cloudsmith.cyberselab.uk": "https://docker.cloudsmith.io",
 };
 
 function routeByHosts(host) {
